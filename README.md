@@ -80,6 +80,7 @@ heißt Spanne vom kleinsten bis zum größten Wert über die 24 Phasen eines Zyk
 
 ## Verwandte Demos im Portfolio
 
+- [`markov-queue-demo`](https://github.com/sebastian-hanisch/markov-queue-demo) (Zusatzstück: Ketten mit konstanten Raten und ihr exaktes Einschwingen (hier schwanken die Raten)).
 - [`square-root-staffing-demo`](https://github.com/sebastian-hanisch/square-root-staffing-demo) (Stück 5): Wurzelregel bei konstanter Last.
 - [`erlang-a-demo`](https://github.com/sebastian-hanisch/erlang-a-demo) (Stück 4) und
   [`mmc-queue-demo`](https://github.com/sebastian-hanisch/mmc-queue-demo) (Stück 3): Erlang A und Erlang C, auf denen die Staffelung beruht.
@@ -95,7 +96,7 @@ Jede dieser Annahmen hebt ein Folgestück der Linie auf:
 |---|---|
 | Abfertigungsdauer exponentiell | [M/G/1, Kingman-Näherung](https://github.com/sebastian-hanisch/mg1-kingman-demo) |
 | Ein Gate | Jackson-Netze |
-| Alle Lkw gleich wichtig | Prioritätsklassen |
+| Alle Lkw gleich wichtig | [Prioritätsklassen](https://github.com/sebastian-hanisch/priority-queue-demo) |
 
 Kein Folgestück: Prognosefehler der Welle, Abwanderung in der zeitvariablen Besetzung, Kosten-optimale Besetzung mit Wechselaufwand.
 

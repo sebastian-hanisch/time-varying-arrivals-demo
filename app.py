@@ -228,12 +228,12 @@ st.markdown(
 | **Die Welle ist bekannt und regelmäßig** | Reale Lasten sind nur geschätzt; Prognosefehler erzeugen zusätzliche Streuung, die hier fehlt. | kein Folgestück |
 | **Unendliche Geduld** | Mit Abwanderung (Stück 4) ändert sich die Kennzahl; die hier gerechnete Besetzung gilt nur für Erlang C. | kein Folgestück |
 | **Ein Gate** | Wellen laufen durch mehrere Stationen (Gate, Kran, Stapel) und verändern sich dabei. | **Jackson-Netze** (Folgestück) |
-| **Alle Lkw gleich wichtig** | Eilige Lkw brauchen Vorfahrt; das verschiebt das Warten zwischen den Klassen. | **Prioritätsklassen** (Folgestück) |
+| **Alle Lkw gleich wichtig** | Eilige Lkw brauchen Vorfahrt; das verschiebt das Warten zwischen den Klassen. | **[Prioritätsklassen](https://sebastianhanisch-priority-queue-demo.streamlit.app/)** |
 | **Spurzahl ohne Kosten und ohne Wechselaufwand** | Wechsel sind teuer: hier nur über das Raster abgebildet, nicht optimiert. | kein Folgestück |
 """
 )
 st.caption(
-    "Verwandt im Portfolio: [square-root-staffing-demo](https://sebastianhanisch-square-root-staffing-demo.streamlit.app/) (Stück 5), "
+    "Verwandt im Portfolio: [markov-queue-demo](https://sebastianhanisch-markov-queue-demo.streamlit.app/) (Zusatzstück: Ketten mit konstanten Raten und ihr exaktes Einschwingen (hier schwanken die Raten)), [square-root-staffing-demo](https://sebastianhanisch-square-root-staffing-demo.streamlit.app/) (Stück 5), "
     "[erlang-a-demo](https://sebastianhanisch-erlang-a-demo.streamlit.app/) (Stück 4), "
     "[mmc-queue-demo](https://sebastianhanisch-mmc-queue-demo.streamlit.app/) (Stück 3), "
     "[mm1-queue-demo](https://sebastianhanisch-mm1-queue-demo.streamlit.app/) (Stück 1) und die Hafen-Demo "
