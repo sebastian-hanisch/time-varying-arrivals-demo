@@ -95,7 +95,7 @@ Jede dieser Annahmen hebt ein Folgestück der Linie auf:
 | Annahme | Folgestück |
 |---|---|
 | Abfertigungsdauer exponentiell | [M/G/1, Kingman-Näherung](https://github.com/sebastian-hanisch/mg1-kingman-demo) |
-| Ein Gate | Jackson-Netze |
+| Ein Gate | [Jackson-Netze](https://github.com/sebastian-hanisch/jackson-network-demo) |
 | Alle Lkw gleich wichtig | [Prioritätsklassen](https://github.com/sebastian-hanisch/priority-queue-demo) |
 
 Kein Folgestück: Prognosefehler der Welle, Abwanderung in der zeitvariablen Besetzung, Kosten-optimale Besetzung mit Wechselaufwand.
