@@ -93,7 +93,7 @@ Jede dieser Annahmen hebt ein Folgestück der Linie auf:
 
 | Annahme | Folgestück |
 |---|---|
-| Abfertigungsdauer exponentiell | M/G/1, Kingman-Näherung |
+| Abfertigungsdauer exponentiell | [M/G/1, Kingman-Näherung](https://github.com/sebastian-hanisch/mg1-kingman-demo) |
 | Ein Gate | Jackson-Netze |
 | Alle Lkw gleich wichtig | Prioritätsklassen |
 

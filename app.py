@@ -224,7 +224,7 @@ st.markdown(
     """
 | Annahme | Was passiert, wenn sie verletzt ist | Wer setzt an |
 |---|---|---|
-| **Abfertigungsdauer exponentiell** | Das verzögerte Angebot hängt von der Verteilung der Dauer ab (nicht nur vom Mittel): bei anderer Streuung ist die Verschiebung eine andere. | **M/G/1, Kingman-Näherung** (Folgestück) |
+| **Abfertigungsdauer exponentiell** | Das verzögerte Angebot hängt von der Verteilung der Dauer ab (nicht nur vom Mittel): bei anderer Streuung ist die Verschiebung eine andere. | **[M/G/1, Kingman-Näherung](https://sebastianhanisch-mg1-kingman-demo.streamlit.app/)** |
 | **Die Welle ist bekannt und regelmäßig** | Reale Lasten sind nur geschätzt; Prognosefehler erzeugen zusätzliche Streuung, die hier fehlt. | kein Folgestück |
 | **Unendliche Geduld** | Mit Abwanderung (Stück 4) ändert sich die Kennzahl; die hier gerechnete Besetzung gilt nur für Erlang C. | kein Folgestück |
 | **Ein Gate** | Wellen laufen durch mehrere Stationen (Gate, Kran, Stapel) und verändern sich dabei. | **Jackson-Netze** (Folgestück) |
