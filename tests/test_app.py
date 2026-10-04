@@ -72,11 +72,13 @@ def test_a_faster_wave_gives_a_larger_offset_and_a_shorter_lag():
 
 
 def test_dice_button_changes_the_seed_and_the_simulated_range():
+    """Die Spannen-Kennzahl ist auf ganze Prozent gerundet und kann bei einem anderen Seed gleich aussehen (CI-Fund), deshalb
+    vergleicht der Test die Daten des Diagramms der simulierten Wartewahrscheinlichkeiten."""
     at = _run()
-    old_seed, old = at.session_state["seed_input"], _metric(at, "Wartewahrscheinlichkeit nach momentanem Angebot")
+    old_seed, old = at.session_state["seed_input"], at.get("plotly_chart")[2].proto.spec
     next(b for b in at.button if b.label == "🎲 Neuen Lauf würfeln").click().run()
     _ok(at)
-    assert at.session_state["seed_input"] != old_seed and _metric(at, "Wartewahrscheinlichkeit nach momentanem Angebot") != old
+    assert at.session_state["seed_input"] != old_seed and at.get("plotly_chart")[2].proto.spec != old
 
 
 def test_permalink_values_are_clamped_and_snapped():
