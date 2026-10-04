@@ -1,5 +1,7 @@
 # Zeitvariable Ankünfte – Besetzung für Wellen (Streamlit-Demo)
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-time-varying-arrivals-demo.streamlit.app/)**
+
 Interaktive Demo zur **Besetzung eines Gates mit schwankender Last** (Tagesverlauf, Pulks nach einer Fährankunft). **Sechstes Stück der
 Konzepte-Linie „Warteschlangentheorie und Simulation“** im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) (Operations
 Research und Machine Learning): ein Verfahren, ein wachsendes Beispiel, jedes Folgestück hebt genau eine Annahme auf.
