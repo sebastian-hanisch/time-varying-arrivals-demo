@@ -102,7 +102,7 @@ Kein Folgestück: Prognosefehler der Welle, Abwanderung in der zeitvariablen Bes
 
 ## Tests
 
-90 Tests, rund 50 s: Ankunftsrate und Angebote von Hand, Dämpfung und Verschiebung (ω/μ = 1 gibt 1/√2 und 2.356 min), das verzögerte Angebot gegen die
+114 Tests, rund 55 s: Orakel-Tests (`tests/test_oracle_tva.py`: das verzögerte Angebot gegen `scipy.integrate.quad` der Definition, die Spurzahl gegen eine Erlang-C-Suche über Geburts-Todes-Gleichungen, die Ausdünnung gegen das Integral der Rate und die Simulation je Phase gegen die exakten Kolmogorov-Vorwärtsgleichungen von M_t/M/c_t im periodischen Beharrungszustand), Ankunftsrate und Angebote von Hand, Dämpfung und Verschiebung (ω/μ = 1 gibt 1/√2 und 2.356 min), das verzögerte Angebot gegen die
 Differentialgleichung und das Definitionsintegral, Versatz (fällt mit der Periode), exakte Staffelung auf Minimalität (auch mit Startwert), Raster
 von Hand, Simulation gegen zwei von Hand gerechnete Mini-Instanzen (wachsende und sinkende Spurzahl, Phasen, Zeitintegral), Ausdünnung (verworfene
 Kandidaten), Ankunftszahlen je Phase gegen das Integral der Rate, konstante Last gegen Erlang C, unendlich viele Spuren gegen das verzögerte Angebot,
